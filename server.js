@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 const api = require('./routes/index.js');
-
-const fs = require('fs');
 const path = require('path');
 const { clog } = require('./middleware/clog');
 
